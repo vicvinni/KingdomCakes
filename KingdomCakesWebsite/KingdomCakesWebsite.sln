@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KingdomCakesWebsite", ".", "{EE948D3F-A710-45A1-9CAD-B3127B64BCDC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50321"
+		Debug.AspNetCompiler.PhysicalPath = "..\KingdomCakesWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50321\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50321"
+		Release.AspNetCompiler.PhysicalPath = "..\KingdomCakesWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50321\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50321"
+		SlnRelativePath = "..\KingdomCakesWebsite\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE948D3F-A710-45A1-9CAD-B3127B64BCDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE948D3F-A710-45A1-9CAD-B3127B64BCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7980BD47-D7DC-4825-B7BA-10E342A11E06}
+	EndGlobalSection
+EndGlobal
