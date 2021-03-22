@@ -1,3 +1,101 @@
 ﻿body {
     background-color: #eae0cc;
 }
+
+#header {
+    width: auto;
+    height: 50px;
+    background-color: #d1b2e0;
+    display: flex; 
+     
+}
+#contact {
+    width: auto;
+    height: 50px;
+    float: right;
+    position: fixed;
+    top: 5%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+}
+#socialsinsta, #email, #phone, #socialsFB {
+    float: left; 
+    display: flex; 
+    width: 165px; 
+
+
+}
+.MainContainer {
+    background-image: url(Images/coloredpolygon.jpg);
+    text-align: center;
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 200px 0px;
+    height: 200px;
+}
+
+#navbar {
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+    #navbar a {
+        float: none;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+#logo {
+    width: 600px;
+    height: 400px;
+    
+}
+#Intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px; 
+}
+#hexagon {
+    width: 100px;
+    height: 55px;
+    background: #fc5e5e;
+    position: relative;
+    margin: 10px auto;
+}
+
+    #hexagon:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: -25px;
+        left: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 25px solid #fc5e5e;
+    }
+
+    #hexagon:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 25px solid #fc5e5e;
+    }
